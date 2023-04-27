@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins';
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #6cdbeb;
+}
+.logo{
+    background-color: #6cdbeb;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    margin:20px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 90%;
+}
+.box h1{
+    font-size: xx-large;
+    width: 90%;
+    text-align: left;
+}
+.box p{
+    text-align: left;
+    width: 90%;
+}
+
+.section1 .card .img{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    filter : grayscale(25%);
+    background: url("./images/image.jpg");
+    background-size: contain;
+    border-top-left-radius: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    margin-bottom: 10px;
+    max-height: 70vh;
+}
+.section1 .card .img img{
+    filter: grayscale(-250%);
+    max-width: 100%;
+}
+.card2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2 .box{
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.card2 .box div{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#box1{
+    background: black;
+}
+#box2 {
+    background: rgb(0, 217, 255);
+}
+#box3 {
+    background: aqua;
+}
+.box div p{
+    text-align: center;
+}
+
+.section3 .aboutus{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus .image{
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-position: right;
+    display: flex;
+}
+
+.aboutus .image img{
+    height: 100px;
+    width: 100px;
+}
+.aboutus .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+div.title, .card-column{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.wide-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 20px 0px;
+}
+.small-card{
+    border: 1px solid gainsboro;
+    box-shadow: 0px 3px 0px 1px ghostwhite;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 45vh;
+}
+
+.small-card .icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: large;
+    background-color: #6cdbeb;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 50%;
+}
+.small-card .title{
+    font-weight: bold;
+    margin: 5px;
+}
+
+button{
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: large;
+    color: rgb(116, 230, 250);
+    border: 1px solid skyblue;
+    margin-top: 5px;
+}
+.section5 .container {
+    background-color: lightskyblue;
+    color:#fff;
+}
+.section5 .container, .section6 .container{
+    display: flex;
+}
+.section6 .container{
+    background-color: ghostwhite;
+}
+.section6 .card{
+    width: 50%;
+}
+.section6 .container .card .img{
+    width: 100%;
+    background: url("./images/IMG-20230424-WA0002.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x:right;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.section6 .container .card .img img{
+    margin-bottom: 14%;
+}
+.section5 .card1 img, .section6 .container .card img {
+    max-height: 75vh;
+}
+.section5 .container .card1{
+    background-image: url("./images/images.jpg");
+    filter: grayscale(0%);
+    background-size: contain;
+    background-position: left;
+    background-repeat: repeat-y;
+    background-position-y: center;
+    width: 48%;
+    padding-left: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.section5 .card .box {
+    padding: 3em;
+}
+
+.section7 .container{
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.card3{
+    max-width: 48%;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 2px ghostwhite;
+    padding: 5px;
+    margin-top: 5px;
+}
+.card3 .intro p{
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card3 .img{
+    display: flex;
+    justify-content: center;
+}
+.section7 .container .card3 .img img{
+    max-width: 60%;
+    height: 100%;
+    border-radius: 10px;
+}
+.know{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    background: rgb(88, 214, 236);
+    color: white;
+}
+.know button{
+background: white;
+color: rgb(116, 230, 250);
+}
+
+.section8{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    min-height: 30vh;
+    text-align: center;
+}
+footer{
+    background: black;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    padding: 10px;
+}
+
+@media (max-width: 900px ) {
+    .top {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        width: 50px;
+        margin: 10px;
+    }
+    .logo img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .nav ul {
+        padding: 0px;
+    }
+        .nav ul li{
+            width: max-content;
+        }
+     .nav ul li a {
+        padding: 2px;
+        display: flex;
+     }
+
+.section1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+    z-index: 1;
+}
+
+.section1 .card {
+    width: 98%;
+}
+.section1 .card .box{
+    width: 90%;
+}
+.section1 .card .box h1{
+    font-size: x-large;
+    width: 100%;
+}
+
+
+.section1 .card .box p{
+    width: 100%;
+}
+
+.section1 .card .img{
+    background-size: contain;
+    border-top-left-radius: 70%;
+    max-height: 35vh;
+    margin-bottom: 0px;
+}
+.section1 .card .img img{
+    max-width: 100%;
+}
+
+.section2 .card2{
+    flex-direction: column;
+    height: max-content;
+}
+
+.section2 .card2 .box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+.section3 .aboutus .about{
+    width: 95%;
+}
+
+.section5 .container{
+        justify-content: start;
+        align-items: flex-end;
+}
+.section5 .container .card1 {
+    z-index: 1;
+}
+.section5 .container .card1 img{
+    max-height: 65vh;
+}
+.section5 .container .card{
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+}
+.section5 .container .card .box{
+    width: 95%;
+    padding: 0;
+}
+.section5 .container .card .box h1{
+    font-size: x-large;
+}
+.section5 .container .card .box p{
+    margin-bottom: 5px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 6px;
+    font-size: inherit;
+    background: ghostwhite;
+}
+
+.section4 .wide-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 10px 0px;
+}
+
+.section4 .wide-card .small-card{
+    width: 90%;
+}
+
+.section6 .container{
+    flex-direction: column;
+}
+
+.section6 .container .card{
+    width: 99%;
+}
+.section6 .container .card .box{
+    margin-top: 10px;
+}
+.section6 .container .card .box h1{
+    font-size: x-large;
+}
+.section6 .container .card .img{
+    justify-content: center;
+}
+.section6 .container .card .img img{
+    max-height: 59vh;
+    margin-bottom: 0px;
+}
+
+.know{
+    height: 25vh;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section7 .container{
+    flex-direction: column;
+}
+
+.section7 .container .card3{
+    max-width: 100%;
+}
+
+.section7 .container .card3 .img img{
+    max-width: 90%;
+}
+
+footer{
+    padding: 10px;
+    flex-direction: column;
+}
+.socials{
+    width: 100%;
+}
+footer ul {
+    display: block;
+}
+footer ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+footer ul li i{
+    margin-left: 5px;
+}
+}
